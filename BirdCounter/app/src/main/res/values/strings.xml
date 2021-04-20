@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BirdCounter</string>
+    <string name="brown_bird_btn_text">Brown bird</string>
+    <string name="grey_bird_btn_text">Grey bird</string>
+    <string name="black_bird_btn_text">Black bird</string>
+    <string name="yellow_bird_button_text">Yellow bird</string>
+    <string name="btn_reset_text">Reset</string>
+</resources>
