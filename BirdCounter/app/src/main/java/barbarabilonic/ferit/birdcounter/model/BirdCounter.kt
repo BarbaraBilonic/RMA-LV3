@@ -1,4 +1,4 @@
-package barbarabilonic.ferit.birdcounter
+package barbarabilonic.ferit.birdcounter.model
 
 class BirdCounter {
     private var birdCount=0

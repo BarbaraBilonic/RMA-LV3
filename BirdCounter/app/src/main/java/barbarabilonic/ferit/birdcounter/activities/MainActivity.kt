@@ -1,16 +1,15 @@
-package barbarabilonic.ferit.birdcounter
+package barbarabilonic.ferit.birdcounter.activities
 
-import android.graphics.BlendMode
-import android.graphics.drawable.Drawable
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.annotation.RequiresApi
+import barbarabilonic.ferit.birdcounter.SharedPreferencesManager
 import barbarabilonic.ferit.birdcounter.databinding.ActivityMainBinding
+import barbarabilonic.ferit.birdcounter.utilities.getBorderResource
+import barbarabilonic.ferit.birdcounter.model.BirdCounter
 
 class MainActivity : AppCompatActivity() {
-    private val sharedPrefs=SharedPreferencesManager()
-    private val birdCounter=BirdCounter()
+    private val sharedPrefs= SharedPreferencesManager()
+    private val birdCounter= BirdCounter()
     private lateinit var mainBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

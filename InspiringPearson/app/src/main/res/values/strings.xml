@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Inspiring people</string>
+    <string name="et_pearson_name_hint">Enter name</string>
+    <string name="et_pearson_date_birth_death_hint">Enter date of birth and death</string>
+    <string name="et_pearson_description_hint">Enter description</string>
+    <string name="et_pearson_quote_hint">Enter quote</string>
+    <string name="et_pearson_imageURL_hint">Enter image URL</string>
+    <string name="btn_save_text">Save</string>
+    <string name="btn_delete_text">Delete</string>
+    <string name="btn_done_text">Done</string>
+</resources>
